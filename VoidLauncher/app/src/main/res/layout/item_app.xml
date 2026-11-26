@@ -8,8 +8,10 @@
 
     <ImageView
         android:id="@+id/icon"
-        android:layout_width="52dp"
-        android:layout_height="52dp" />
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:background="@drawable/glass_circle"
+        android:padding="11dp" />
 
     <TextView
         android:id="@+id/label"
@@ -19,6 +21,6 @@
         android:ellipsize="end"
         android:gravity="center"
         android:maxLines="1"
-        android:textColor="#E1BEE7"
+        android:textColor="#F3E8FF"
         android:textSize="12sp" />
 </LinearLayout>
